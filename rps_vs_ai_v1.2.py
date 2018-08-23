@@ -14,7 +14,6 @@ winning_score = input("how many games do you want to try to win?: ")
 winning_score = int(winning_score)
 
 
-
 while computer_wins < winning_score and player_wins < winning_score:
 	print (f"\n Player score: {player_wins}  Marvin's score: {computer_wins}")
 	print ("\n")
