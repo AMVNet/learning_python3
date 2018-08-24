@@ -19,15 +19,18 @@ while computer_wins < winning_score and player_wins < winning_score:
 	print ("\n")
 	print ("rock...paper...scissors...SHOOT \n")
 	player = input("\n Enter r, p, or s: ").lower()
-	# if player != "s" or player != "s" or player != "s":
-	# 	print (" you did not enter r, p, or s")
+# 	if player != "r" or player != "p" or player != "s":
+# 		print ("\n YOU DID NOT ENTER r, p, or s")
+# #	player = input("\n Enter r, p, or s: ").lower()
+# 	else:	
+# 		player = None
 	computer = randint(1,3)
 	if computer == 1:
-	    computer = "r"
+		computer = "r"
 	elif computer == 2:
-	    computer = "p"
+		computer = "p"
 	else:
-	    computer = "s"
+		computer = "s"
 
 	if computer == player:
 		print ("it is a draw! \n")
